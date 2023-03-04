@@ -1,0 +1,153 @@
+body{
+    margin: 0px;
+}
+
+#top-header{
+    background-color: #080343;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#logo-image{
+    flex: 2;
+}
+
+#navigation{
+    flex: 6;
+}
+
+#logo-image img{
+   margin-left: 20px;
+}
+
+.list-items{
+    list-style-type: none;
+    float: right;
+    
+}
+
+.list-items li{
+    display: inline-block;
+    padding-right: 50px;
+}
+
+.list-items li a{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.list-items li a:hover{
+    text-decoration: underline;
+}
+
+#imgpara-section{
+    border: 2px solid #080343;
+    border-radius: 20px;
+    margin: 50px auto;
+    padding: 20px;
+    width: 90%;
+    height: auto;
+}
+
+#imgpara-section{
+    display: flex;
+    align-items: center;
+}
+
+#img-section{
+    width: 30%;
+}
+
+#para-section{
+    width: 70%;
+    text-align: justify;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+#para-section::first-letter {
+    font-size: 200%;
+    color: #080343;
+}
+
+#three-col-para{
+ display: flex;
+ margin: 20px;
+}
+
+#three-col-para>div{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    text-align: justify;
+    flex: 1;
+}
+
+h2{
+    font-size: 26px;
+   text-align: center;
+   color: #080343; 
+}
+
+.col-para-des{
+    font-size: 16px;
+    text-align: center;
+    font-style: italic;
+}
+
+.col-btn{
+    text-align: center;
+}
+
+.col-btn button{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #080343;
+    border: 1px solid #080343;;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.col-btn button:hover{
+    background-color: white;
+    border: 1px solid #080343;;
+    color: #080343;
+}
+
+#bottom-footer{
+    margin-top: 60px;
+    background-color: #080343;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#footer-txt{
+    flex: 3;
+    border-right: 5px solid white;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+#footer-icons{
+    flex: 3;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#footer-icons a{
+ padding-right: 10px;
+}
